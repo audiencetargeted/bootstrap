@@ -1977,17 +1977,17 @@ pre code {
   clear: both;
 }
 
-.atroww {
+.atrow {
   margin-left: -15px;
   margin-right: -15px;
 }
 
-.atroww:before, .atroww:after {
+.atrow:before, .atrow:after {
   content: " ";
   display: table;
 }
 
-.atroww:after {
+.atrow:after {
   clear: both;
 }
 

@@ -2051,17 +2051,17 @@ Theme URI:
   clear: both;
 }
 
-.atrocket .atroww {
+.atrocket .atrow {
   margin-left: -15px;
   margin-right: -15px;
 }
 
-.atrocket .atroww:before, .atrocket .atroww:after {
+.atrocket .atrow:before, .atrocket .atrow:after {
   content: " ";
   display: table;
 }
 
-.atrocket .atroww:after {
+.atrocket .atrow:after {
   clear: both;
 }
 
