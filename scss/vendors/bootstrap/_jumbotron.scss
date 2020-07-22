@@ -25,14 +25,14 @@
     border-top-color: darken($jumbotron-bg, 10%);
   }
 
-  .container &,
-  .container-fluid & {
+  .atcontainer &,
+  .atcontainer-fluid & {
     border-radius: $border-radius-large; // Only round corners at higher resolutions if contained in a container
     padding-left:  ($grid-gutter-width / 2);
     padding-right: ($grid-gutter-width / 2);
   }
 
-  .container {
+  .atcontainer {
     max-width: 100%;
   }
 
@@ -40,8 +40,8 @@
     padding-top:    ($jumbotron-padding * 1.6);
     padding-bottom: ($jumbotron-padding * 1.6);
 
-    .container &,
-    .container-fluid & {
+    .atcontainer &,
+    .atcontainer-fluid & {
       padding-left:  ($jumbotron-padding * 2);
       padding-right: ($jumbotron-padding * 2);
     }

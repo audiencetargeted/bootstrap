@@ -3,7 +3,7 @@
 //
 
 .bd-example-row {
-  .row {
+  .atroww {
     > .col,
     > [class^="col-"] {
       padding-top: .75rem;
@@ -13,12 +13,12 @@
     }
   }
 
-  .row + .row {
+  .atroww + .atroww {
     margin-top: 1rem;
   }
 }
 
-.bd-example-row-flex-cols .row {
+.bd-example-row-flex-cols .atroww {
   min-height: 10rem;
   background-color: rgba(255, 0, 0, .1);
 }

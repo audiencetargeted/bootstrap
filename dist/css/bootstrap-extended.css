@@ -1927,67 +1927,67 @@ pre code {
   overflow-y: scroll;
 }
 
-.container {
+.atcontainer {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.container:before, .container:after {
+.atcontainer:before, .atcontainer:after {
   content: " ";
   display: table;
 }
 
-.container:after {
+.atcontainer:after {
   clear: both;
 }
 
 @media (min-width: 768px) {
-  .container {
+  .atcontainer {
     width: 750px;
   }
 }
 
 @media (min-width: 992px) {
-  .container {
+  .atcontainer {
     width: 970px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .atcontainer {
     width: 1170px;
   }
 }
 
-.container-fluid {
+.atcontainer-fluid {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.container-fluid:before, .container-fluid:after {
+.atcontainer-fluid:before, .atcontainer-fluid:after {
   content: " ";
   display: table;
 }
 
-.container-fluid:after {
+.atcontainer-fluid:after {
   clear: both;
 }
 
-.row {
+.atroww {
   margin-left: -15px;
   margin-right: -15px;
 }
 
-.row:before, .row:after {
+.atroww:before, .atroww:after {
   content: " ";
   display: table;
 }
 
-.row:after {
+.atroww:after {
   clear: both;
 }
 
@@ -4841,19 +4841,19 @@ tbody.collapse.in {
   }
 }
 
-.container > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-header,
-.container-fluid > .navbar-collapse {
+.atcontainer > .navbar-header,
+.atcontainer > .navbar-collapse,
+.atcontainer-fluid > .navbar-header,
+.atcontainer-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
 }
 
 @media (min-width: 768px) {
-  .container > .navbar-header,
-  .container > .navbar-collapse,
-  .container-fluid > .navbar-header,
-  .container-fluid > .navbar-collapse {
+  .atcontainer > .navbar-header,
+  .atcontainer > .navbar-collapse,
+  .atcontainer-fluid > .navbar-header,
+  .atcontainer-fluid > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
   }
@@ -4913,8 +4913,8 @@ tbody.collapse.in {
 }
 
 @media (min-width: 768px) {
-  .navbar > .container .navbar-brand,
-  .navbar > .container-fluid .navbar-brand {
+  .navbar > .atcontainer .navbar-brand,
+  .navbar > .atcontainer-fluid .navbar-brand {
     margin-left: -15px;
   }
 }
@@ -5677,14 +5677,14 @@ a.badge:hover, a.badge:focus {
   border-top-color: #d5d5d5;
 }
 
-.container .jumbotron,
-.container-fluid .jumbotron {
+.atcontainer .jumbotron,
+.atcontainer-fluid .jumbotron {
   border-radius: 6px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.jumbotron .container {
+.jumbotron .atcontainer {
   max-width: 100%;
 }
 
@@ -5693,8 +5693,8 @@ a.badge:hover, a.badge:focus {
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  .container .jumbotron,
-  .container-fluid .jumbotron {
+  .atcontainer .jumbotron,
+  .atcontainer-fluid .jumbotron {
     padding-left: 60px;
     padding-right: 60px;
   }
